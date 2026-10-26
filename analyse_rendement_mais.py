@@ -9,7 +9,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.preprocessing import LabelEncoder
 
 # Chargement des données
-url=r"C:\Users\me\Desktop\M1SDTS\ATDN\ATDN2\TP1\rendement_mais.csv"
+url = "rendement_mais.csv"
 data = pd.read_csv(url,sep=',',on_bad_lines='skip')  
 print(data.head())
 print("Colonnes du fichier:", data.columns)
